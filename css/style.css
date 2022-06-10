@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: white;
+}
+
+
+/* TAMPILAN LOGIN */
+.full-layar{
+	min-height:100vh !important;
+}
+
+.text-justify{
+	text-align: justify;
+}
+/* END */
+
+/* TAMPILAN REGISTER */
+.card{
+	width: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+}
+
+.layout_bg{
+	width: 100%;
+	min-height: 100vh;
+	background-color: #9b59b6;
+}
+
+.layout_bg input[type="text"], .layout_bg input[type="email"], .layout_bg input[type="password"], .layout_bg input[type="submit"]{
+	width: 100%;
+	margin: 0 auto;
+}
+/* MEDIA SIZE */
+@media (min-width: 580px) {
+	.card, .layout_bg input[type="text"], .layout_bg input[type="email"], .layout_bg input[type="password"], .layout_bg input[type="submit"]{
+		width: 40%;
+	}
+	.layout_bg input[type="text"], .layout_bg input[type="email"], .layout_bg input[type="password"], .layout_bg input[type="submit"]{
+		margin: 0 auto;
+		width: 70%;
+	}
+}
+
+/* END */
+
+
+
+/* TAMPILAN LANDING PAGE */
+.nav-link{
+	color: white !important;
+	font-weight: bold;
+}
+.nav-link:hover{
+	color: #ff9ff3 !important;
+}
+
+.active{
+	color: #ff9ff3 !important;
+}
+
+.btn-Lpage{
+	width: 100%;
+}
+
+.btn-Lpage:hover, .btn-opacity:hover{
+	opacity: 0.8;
+}
+
+@media(min-width: 580px){
+	.btn-Lpage{
+		width: 130px;
+	}
+}
+
+#home .container-fluid{
+	height: 95vh;
+	padding: 100px 0;
+}
+
+.circle{
+	border: 5px solid #fff;
+	border-radius: 100%;
+}
+
+.alert{
+	padding: 5px 10px;
+}
+
+footer{
+	box-shadow: 0 5px 8px 0 black;
+}
+
+
+/* BIO TEAM */
+.card-default{
+	background-color: white !important;
+	border-radius: 10px;
+}
+
+/* DATE (PEMESANAN) */
+.btn-outline-purple{
+	border: 1px solid #9b59b6;
+	color: #9b59b6;
+	padding: 5px 10px;
+}
+
+.btn-outline-purple:hover{
+	border: 1px solid #9b59b6;
+	background-color: #9b59b6;
+	color: white;
+	padding: 5px 10px;
+}
+.btn-check:active+.btn-outline-purple, 
+.btn-check:checked+.btn-outline-purple, 
+.btn-outline-purple.active, 
+.btn-outline-purple.dropdown-toggle.show, 
+.btn-outline-purple:active{
+	border: 1px solid #9b59b6;
+	background-color: #9b59b6;
+	color: white;
+	padding: 5px 10px;
+}
+
+.datepicker table{
+	font-size: 15px;
+}
+
+.datepicker table, .datepicker table th, .datepicker table th td{
+	padding: 10px 15px;
+}
+
+
+/* PEMBAYARAN */
+.btn-outline-bayar{
+	border: 2px solid #9b59b6;
+	color: black;
+	padding: 5px 0;
+}
+
+.btn-outline-bayar:hover{
+	border: 2px solid #9b59b6;
+	background-color: #ff9ff3;
+	color: white;
+	padding: 5px 0;
+}
+.btn-check:active+.btn-outline-bayar, 
+.btn-check:checked+.btn-outline-bayar, 
+.btn-outline-bayar.active, 
+.btn-outline-bayar.dropdown-toggle.show, 
+.btn-outline-bayar:active{
+	border: 2px solid #9b59b6;
+	background-color: #ff9ff3;
+	color: white;
+	padding: 5px 0;
+}
+
+@media(max-width: 800px){
+	.img-bayar{
+		width: 30%;
+	}
+}
